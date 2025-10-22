@@ -1,0 +1,21 @@
+# IDE and editor specific
+.vscode/
+tempCodeRunnerFile.py
+
+# Python specific
+__pycache__/
+*.pyc
+
+# Environments - IMPORTANT: Never commit your virtual environment
+.env
+.venv
+env/
+venv/
+
+# Vector Store Index - This should be rebuilt from source, not stored in git
+faiss_index/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
